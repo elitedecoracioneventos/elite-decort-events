@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elite Decor & Events | Manualidades y Eventos</title>
+  <title>Elite Decor & Events</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <a href="#inicio" class="brand"><img src="assets/logo.jpg" alt="Logo Elite Decor & Events"><span>ELITE DECOR<br><small>& Events</small></span></a>
+    <div class="brand">
+      <img src="logo.jpg" alt="Logo Elite Decor & Events" class="brand-logo" />
+      <div><strong>ELITE DECOR</strong><span>& Events</span></div>
+    </div>
     <nav>
       <a href="#servicios">Servicios</a>
       <a href="#galeria">Galería</a>
@@ -18,77 +21,78 @@
     </nav>
   </header>
 
-  <main id="inicio">
-    <section class="hero">
-      <div class="hero-text">
-        <p class="tag">Detalles hechos con amor</p>
-        <h1>Manualidades personalizadas, regalos y decoración para eventos</h1>
-        <p>Tazas, camisetas, cajas sorpresa, arcos, decoración y regalos únicos hechos a tu gusto.</p>
-        <div class="hero-buttons">
-          <a class="btn" href="#galeria">Ver galería</a>
-          <a class="btn secondary" href="https://wa.me/34652822545" target="_blank">Pedir por WhatsApp</a>
-        </div>
+  <section class="hero" id="inicio">
+    <div class="hero-text">
+      <p class="tag">DETALLES HECHOS CON AMOR</p>
+      <h1>Manualidades personalizadas, regalos y decoración para eventos</h1>
+      <p>Tazas, camisetas, cajas sorpresa, arcos, decoración y regalos únicos hechos a tu gusto.</p>
+      <div class="buttons">
+        <a class="btn" href="#galeria">Ver galería</a>
+        <a class="btn outline" href="https://wa.me/34652822545" target="_blank">Pedir por WhatsApp</a>
       </div>
-      <div class="hero-card"><img src="assets/logo_negro.jpg" alt="Elite Decor & Events"></div>
-    </section>
+    </div>
+    <div class="hero-img"><img src="logo_negro.jpg" alt="Elite Decor & Events" /></div>
+  </section>
 
-    <section id="servicios" class="section">
-      <p class="tag">Lo que ofrecemos</p>
-      <h2>Servicios</h2>
-      <div class="cards">
-        <article><span>☕</span><h3>Tazas personalizadas</h3><p>Diseños para cumpleaños, amor, familia, empresas y fechas especiales.</p></article>
-        <article><span>👕</span><h3>Camisetas y prendas</h3><p>Estampados personalizados para negocios, eventos, equipos y regalos.</p></article>
-        <article><span>🎁</span><h3>Cajas sorpresa</h3><p>Detalles especiales con chocolates, perfumes, peluches y regalos.</p></article>
-        <article><span>🎈</span><h3>Decoración y arcos</h3><p>Alquiler de arco redondo y decoración para fiestas y momentos especiales.</p></article>
-      </div>
-    </section>
+  <section id="servicios" class="section">
+    <p class="tag">Lo que ofrecemos</p>
+    <h2>Servicios</h2>
+    <div class="services">
+      <article><h3>☕ Tazas personalizadas</h3><p>Diseños para cumpleaños, amor, familia, empresas y fechas especiales.</p></article>
+      <article><h3>👕 Camisetas y prendas</h3><p>Estampados personalizados para negocios, eventos, equipos y regalos.</p></article>
+      <article><h3>🎁 Cajas sorpresa</h3><p>Detalles especiales con chocolates, perfumes, peluches y regalos.</p></article>
+      <article><h3>🎈 Decoración y arcos</h3><p>Alquiler de arco redondo y decoración para fiestas y momentos especiales.</p></article>
+    </div>
+  </section>
 
-    <section id="galeria" class="section dark">
-      <p class="tag">Fotos reales y diseños</p>
-      <h2>Galería de fotos</h2>
-      <div class="gallery">
-        <figure><img src="assets/tazas_mama.jpg" alt="Tazas personalizadas"><figcaption>Tazas personalizadas</figcaption></figure>
-        <figure><img src="assets/taza_cumple.jpg" alt="Taza cumpleaños"><figcaption>Taza de cumpleaños</figcaption></figure>
-        <figure><img src="assets/taza_gaby.jpg" alt="Taza infantil"><figcaption>Taza infantil personalizada</figcaption></figure>
-        <figure><img src="assets/tazas_publicidad.jpg" alt="Tazas promocionales"><figcaption>Promoción de tazas</figcaption></figure>
-        <figure><img src="assets/camisetas.png" alt="Camisetas personalizadas"><figcaption>Camisetas personalizadas</figcaption></figure>
-        <figure><img src="assets/alexva.png" alt="Logo para camiseta"><figcaption>Diseño para estampar</figcaption></figure>
-        <figure><img src="assets/caja_real.jpg" alt="Caja sorpresa real"><figcaption>Caja sorpresa real</figcaption></figure>
-        <figure><img src="assets/caja_publicidad.jpg" alt="Caja sorpresa mamá"><figcaption>Caja sorpresa para mamá</figcaption></figure>
-        <figure><img src="assets/arco.png" alt="Arco redondo para alquilar"><figcaption>Arco redondo para alquilar</figcaption></figure>
-      </div>
-    </section>
+  <section id="galeria" class="section dark">
+    <p class="tag">Fotos reales y diseños</p>
+    <h2>Galería de fotos</h2>
+    <div class="gallery">
+      <figure><img src="tazas_mama.jpg" alt="Tazas personalizadas"><figcaption>Tazas personalizadas</figcaption></figure>
+      <figure><img src="taza_cumple.jpg" alt="Taza cumpleaños"><figcaption>Taza de cumpleaños</figcaption></figure>
+      <figure><img src="taza_gaby.jpg" alt="Taza infantil"><figcaption>Taza infantil personalizada</figcaption></figure>
+      <figure><img src="tazas_publicidad.jpg" alt="Tazas promocionales"><figcaption>Promoción de tazas</figcaption></figure>
+      <figure><img src="camisetas.png" alt="Camisetas personalizadas"><figcaption>Camisetas personalizadas</figcaption></figure>
+      <figure><img src="alexva.png" alt="Logo para camiseta"><figcaption>Diseño para estampar</figcaption></figure>
+      <figure><img src="caja_real.jpg" alt="Caja sorpresa real"><figcaption>Caja sorpresa real</figcaption></figure>
+      <figure><img src="caja_publicidad.jpg" alt="Caja sorpresa mamá"><figcaption>Caja sorpresa para mamá</figcaption></figure>
+      <figure><img src="arco.png" alt="Arco redondo para alquilar"><figcaption>Arco redondo para alquilar</figcaption></figure>
+    </div>
+  </section>
 
-    <section id="videos" class="section">
-      <p class="tag">Contenido para redes</p>
-      <h2>Videos</h2>
-      <div class="video-grid">
-        <div class="video-box"><h3>Video de tazas</h3><p>Aquí puedes poner un enlace de YouTube, TikTok o Instagram mostrando tus tazas.</p></div>
-        <div class="video-box"><h3>Antes y después</h3><p>Espacio para videos cortos de trabajos terminados y proceso.</p></div>
-        <div class="video-box"><h3>Decoración de eventos</h3><p>Espacio para videos de arcos, montajes y decoración.</p></div>
-      </div>
-      <p class="note">Cuando tengas enlaces de videos, se cambian estos cuadros por videos reales.</p>
-    </section>
+  <section id="videos" class="section">
+    <p class="tag">Contenido para redes</p>
+    <h2>Videos</h2>
+    <div class="video-grid">
+      <article class="video-card">
+        <h3>Video de TikTok</h3>
+        <p>Mira uno de nuestros trabajos en video.</p>
+        <a class="btn" href="https://vt.tiktok.com/ZSQHYx9UE/" target="_blank">Ver video</a>
+      </article>
+      <article class="video-card"><h3>Antes y después</h3><p>Espacio para videos cortos de trabajos terminados y proceso.</p></article>
+      <article class="video-card"><h3>Decoración de eventos</h3><p>Espacio para videos de arcos, montajes y decoración.</p></article>
+    </div>
+  </section>
 
-    <section id="trabajos" class="section dark">
-      <p class="tag">Ejemplos con descripción</p>
-      <h2>Trabajos realizados</h2>
-      <div class="work-list">
-        <article><img src="assets/tazas_mama.jpg" alt="Tazas para mamá"><div><h3>Tazas para fechas especiales</h3><p>Diseños personalizados para mamá, hermana, suegra y regalos familiares.</p></div></article>
-        <article><img src="assets/caja_real.jpg" alt="Caja sorpresa"><div><h3>Cajas sorpresa personalizadas</h3><p>Regalos armados con detalles, chocolates, perfume y decoración especial.</p></div></article>
-        <article><img src="assets/arco.png" alt="Arco redondo"><div><h3>Decoración y alquiler de arco</h3><p>Arco redondo disponible para cumpleaños, baby shower, bautizos y fiestas.</p></div></article>
-        <article><img src="assets/camisetas.png" alt="Camisetas"><div><h3>Camisetas y uniformes</h3><p>Diseños para pecho y espalda con logos de empresa o marca personal.</p></div></article>
-      </div>
-    </section>
+  <section id="trabajos" class="section dark">
+    <p class="tag">Ejemplos con descripción</p>
+    <h2>Trabajos realizados</h2>
+    <div class="work-list">
+      <article><img src="tazas_mama.jpg" alt="Tazas para mamá"><div><h3>Tazas para fechas especiales</h3><p>Diseños personalizados para mamá, hermana, suegra y regalos familiares.</p></div></article>
+      <article><img src="caja_real.jpg" alt="Caja sorpresa"><div><h3>Cajas sorpresa personalizadas</h3><p>Regalos armados con detalles, chocolates, perfume y decoración especial.</p></div></article>
+      <article><img src="arco.png" alt="Arco redondo"><div><h3>Decoración y alquiler de arco</h3><p>Arco redondo disponible para cumpleaños, baby shower, bautizos y fiestas.</p></div></article>
+      <article><img src="camisetas.png" alt="Camisetas"><div><h3>Camisetas y uniformes</h3><p>Diseños para pecho y espalda con logos de empresa o marca personal.</p></div></article>
+    </div>
+  </section>
 
-    <section id="contacto" class="section contact">
-      <h2>Contacto</h2>
-      <p>Haz tu pedido o cotización por WhatsApp.</p>
-      <p class="phones">652822545 · 652829254</p>
-      <a class="btn" href="https://wa.me/34652822545" target="_blank">Escribir por WhatsApp</a>
-      <p class="social">Instagram / Facebook / TikTok: añade aquí tus redes sociales</p>
-    </section>
-  </main>
+  <section id="contacto" class="section contact">
+    <h2>Contacto</h2>
+    <p>Haz tu pedido o cotización por WhatsApp.</p>
+    <p class="phones">652822545 · 652829254</p>
+    <a class="btn" href="https://wa.me/34652822545" target="_blank">Escribir por WhatsApp</a>
+    <p class="social">Instagram / Facebook / TikTok: añade aquí tus redes sociales</p>
+  </section>
 
   <a class="whatsapp" href="https://wa.me/34652822545" target="_blank">WhatsApp</a>
 </body>
